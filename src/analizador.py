@@ -9,8 +9,8 @@ from bioestadisticas import contar_bases, calcular_gc
 from exportador import exportar_tsv
 
 # --- Configuración de entrada y salida ---
-ruta_entrada = "data/secuencias.fasta"
-ruta_salida = "output/resultados.tsv"
+ruta_entrada = "../data/secuencias.fasta"
+ruta_salida = "../output/resultados2.tsv"
 
 # --- Leer las secuencias ---
 secuencias = leer_fasta(ruta_entrada)
