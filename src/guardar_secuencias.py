@@ -6,8 +6,8 @@ con dos columnas: ID de secuencia y la secuencia completa.
 
 from fasta_utils import leer_fasta
 
-entrada = "data/secuencias.fasta"
-salida = "output/secuencias.tsv"
+entrada = "../data/secuencias.fasta"
+salida = "../output/secuencias.tsv"
 
 secuencias = leer_fasta(entrada)
 
