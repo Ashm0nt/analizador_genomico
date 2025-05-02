@@ -1,14 +1,10 @@
-"""
-fasta_utils.py: Modulo para funcionalidads de formaro fasta
-"""
-import pathlib as Path
+from pathlib import Path
 
 def leer_fasta(ruta_fasta):
     ruta = Path(ruta_fasta)
     if not ruta.is_file():
         print(f"[ERROR] No se encontró el archivo: {ruta_fasta}")
         return {}
-    
     secuencias = {}
     id_actual = None
     with open(ruta_fasta, 'r') as f:
