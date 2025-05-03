@@ -42,3 +42,5 @@ else:
         print(f"[OK] Resultados guardados en: {ruta_salida}")
     else:
         print("[INFO] No se generaron resultados válidos.")
+
+print(f"__name__vale: {__name__}")
